@@ -1,0 +1,46 @@
+module test_de2 (input CLOCK_50,
+					  output reg [17:0] LEDR,
+					  output [6:0] HEX0,
+					  output [6:0] HEX1,
+					  output [6:0] HEX2,
+					  output [6:0] HEX3,
+					  output [6:0] HEX4,
+					  output [6:0] HEX5,
+					  output [6:0] HEX6,
+					  output [6:0] HEX7,
+					  input [17:0] SW);
+					  
+reg [25:0] clk_div;
+
+initial begin
+  LEDR <= 0;
+  clk_div <= 0;
+end
+
+always @(posedge clk_div[22]) LEDR <= LEDR + 18'b1;
+always @(posedge CLOCK_50) clk_div <= clk_div+26'b1;
+
+wire [31:0] switch_data,output_data;
+
+regfile32x32 myregfile(.readaddr1(5'd30),
+							  .readaddr2(5'd0),
+							  .writeaddr(5'd30),
+							  .clk(CLOCK_50),
+							  .we(1'b1),
+							  .writedata(switch_data),
+							  .reg30_in({14'b0,SW}),
+							  .readdata1(switch_data),
+							  .readdata2(),
+							  .reg30_out(output_data));
+
+display hex0_display (output_data[3:0],HEX0);
+display hex1_display (output_data[7:4],HEX1);
+display hex2_display (output_data[11:8],HEX2);
+display hex3_display (output_data[15:12],HEX3);
+display hex4_display (output_data[19:16],HEX4);
+display hex5_display (output_data[23:20],HEX5);
+display hex6_display (output_data[27:24],HEX6);
+display hex7_display (output_data[31:28],HEX7);
+
+							  
+endmodule

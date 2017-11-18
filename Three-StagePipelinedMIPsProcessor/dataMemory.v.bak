@@ -1,0 +1,1 @@
+module dataMemory(input [9:0] addr, input [31:0] dataIn, input we, output reg [31:0] dataout);

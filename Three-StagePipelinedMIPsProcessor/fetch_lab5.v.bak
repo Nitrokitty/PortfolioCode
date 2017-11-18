@@ -1,0 +1,51 @@
+module fetch( input clk, rst, stall_EX, input [9:0] branch_addr_EX, jtype_addr_EX, reg_addr_EX,
+input [1:0] pc_src_EX, output reg [31:0] instruction_EX, output reg [9:0] pc_FETCH);
+							
+	reg [31:0] mem [1023:0];
+	reg [9:0] pc;
+	initial begin
+		//$readmemh("./Lab6_Input.txt", mem, 0, 1023); //Bakos'
+		//$readmemh("./Lab6_Input2.txt", mem, 0, 1023); //Other
+		$readmemh("./sqrt_tests.txt", mem, 0, 1023); //SQRTS
+		pc <= 0;
+	end
+
+	always@(posedge clk, posedge rst) begin
+		$display("**********************\nPC: %d", pc);
+		if(rst) begin
+			instruction_EX = 31'b0;
+			pc = 0;
+			$display("rest");
+		end
+		else begin
+			$display("HEREHEHEHEE");
+			if( (pc_src_EX == 2'b11)) begin
+				pc = reg_addr_EX;
+				$display("set new register");	
+				instruction_EX = 31'b0;
+			end
+			else if(pc_src_EX == 2'b1) begin
+				pc = branch_addr_EX;
+				$display("branch");
+				instruction_EX = 31'b0;
+			end
+			else if(pc_src_EX == 2'b10) begin
+				pc = jtype_addr_EX;
+				$display("jump");
+				instruction_EX = 31'b0;
+			end
+			else begin
+				instruction_EX = mem[pc];
+				pc = pc +10'b1;
+				$display("increment PC");
+			end
+		end
+		pc_FETCH = pc;	
+		//if(stall_EX) instruction_EX = 31'b0;
+		//else begin		
+		$display("Insruction: %x", instruction_EX);
+		$display("next PC: %d", pc);
+		$display("pc_src_EX: %b", pc_src_EX);
+		//pc = pc +10'b1;
+	end
+endmodule 

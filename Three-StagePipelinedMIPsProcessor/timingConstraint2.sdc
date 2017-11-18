@@ -1,0 +1,1 @@
+create_clock -name {COCK_27} -period 37.037 [get_ports {CLOCK_27}]

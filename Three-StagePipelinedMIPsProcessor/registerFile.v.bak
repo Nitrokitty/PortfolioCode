@@ -1,0 +1,25 @@
+module regfile32x32( input [4:0] readaddr1, readaddr2, writeaddr, 
+							input clk, we, input [31:0] writedata, reg30_in,
+							output reg [31:0] readdata1, readdata2, reg30_out);
+							
+	reg [31:0] regfile [31:0];
+	integer i =0, j=0;
+	initial begin
+		regfile[0] = 32'b0;
+	end
+
+	//writing
+	always @(posedge clk) begin
+		//writing
+		if(we) begin
+			if(writeaddr !== 5'h1E && writeaddr !== 5'b0) regfile[writeaddr] <= writedata; else
+			if(writeaddr == 5'h1E ) reg30_out <= writedata;
+		end //end if
+	end //end always
+	always@(*) begin
+		readdata1 = regfile[readaddr1];
+		readdata2 = regfile[readaddr2];
+		if(readaddr1 == 5'h1E ) readdata1 = reg30_in;
+		if(readaddr2 == 5'h1E ) readdata2 = reg30_in;
+	end
+endmodule 

@@ -1,0 +1,5 @@
+PLL_Name	display_if:mydisplay|VGA_PLL:mypll|altpll:altpll_component|pll
+PLLJITTER	30
+PLLSPEmax	84
+PLLSPEmin	-53
+

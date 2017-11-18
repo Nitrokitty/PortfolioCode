@@ -1,0 +1,333 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/acct/talleyad/Documents/CSCE-611/Project3
+T_opt
+!s110 1479512365
+Vn=M>cAi5404zR>e7d2=Rc2
+04 9 4 work testBench fast 0
+=1-989096c35b12-582f912d-9c453-57c5
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4b;61
+R0
+valu
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ahJ;YRGdnFjz6oU?jXPjz3
+IbQ=f5ce^g;XO?DhK3d:XO2
+Z2 d/acct/talleyad/Documents/CSCE-611/current2
+w1480329382
+8/acct/talleyad/Documents/CSCE-611/current2/alu.v
+F/acct/talleyad/Documents/CSCE-611/current2/alu.v
+L0 2
+Z3 OL;L;10.4b;61
+!s108 1482318314.000000
+!s107 /acct/talleyad/Documents/CSCE-611/current2/alu.v|
+!s90 -reportprogress|300|-work|work|/acct/talleyad/Documents/CSCE-611/current2/alu.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vcontrolUnit
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;UBimBWSXJQI_LSfPz:5i1
+IBORS4VJKDE8c5gFLoKB?f3
+R2
+w1482318298
+8/acct/talleyad/Documents/CSCE-611/current2/controlUnit.v
+F/acct/talleyad/Documents/CSCE-611/current2/controlUnit.v
+L0 1
+R3
+!s108 1482318711.000000
+!s107 /acct/talleyad/Documents/CSCE-611/current2/controlUnit.v|
+!s90 -reportprogress|300|-work|work|/acct/talleyad/Documents/CSCE-611/current2/controlUnit.v|
+!i113 0
+R4
+ncontrol@unit
+vdataMemory
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 hAOiPJ;?g<MzQk^<0eAYX0
+I9o7nSLV]mmho<[?FeDOD23
+R2
+w1482271308
+8/acct/talleyad/Documents/CSCE-611/current2/dataMemory.v
+F/acct/talleyad/Documents/CSCE-611/current2/dataMemory.v
+L0 1
+R3
+!s108 1482940361.000000
+!s107 /acct/talleyad/Documents/CSCE-611/current2/dataMemory.v|
+!s90 -reportprogress|300|-work|work|/acct/talleyad/Documents/CSCE-611/current2/dataMemory.v|
+!i113 0
+R4
+ndata@memory
+vdisplay
+Z5 !s110 1480263602
+!i10b 1
+!s100 2YDX2`NBdEho33`CgN^2F0
+I7j[ZFG[cLXhR<lNV?5fU;0
+R1
+R2
+w1479511993
+8/acct/talleyad/Documents/CSCE-611/current2/display.v
+F/acct/talleyad/Documents/CSCE-611/current2/display.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z6 !s108 1480263602.000000
+!s107 /acct/talleyad/Documents/CSCE-611/current2/display.v|
+!s90 -reportprogress|30|-work|work|/acct/talleyad/Documents/CSCE-611/current2/display.v|
+!i113 0
+R4
+vDisplay
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 loV<FRlZRAee^l3`ognPm0
+Ie]^OCHGF=cfDO=M8^Emb23
+R2
+Z7 w1480097990
+8/acct/talleyad/Documents/CSCE-611/current2/Display.v
+F/acct/talleyad/Documents/CSCE-611/current2/Display.v
+L0 1
+R3
+R6
+!s107 /acct/talleyad/Documents/CSCE-611/current2/Display.v|
+!s90 -reportprogress|30|-work|work|/acct/talleyad/Documents/CSCE-611/current2/Display.v|
+!i113 0
+R4
+n@display
+vdisplay_if
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 i8@ai2a1;2aUARDG;V2?J0
+ITPXlQPmY?QWb>68R;Mf:h3
+R2
+w1480100015
+8/acct/talleyad/Documents/CSCE-611/current2/display_if.v
+F/acct/talleyad/Documents/CSCE-611/current2/display_if.v
+L0 1
+R3
+R6
+!s107 /acct/talleyad/Documents/CSCE-611/current2/display_if.v|
+!s90 -reportprogress|30|-work|work|/acct/talleyad/Documents/CSCE-611/current2/display_if.v|
+!i113 0
+R4
+vexecWrite
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 8^2]FkNRkcOgNJ8`QW?0f3
+Ihd[dcO=d3K906hN?;?Cn82
+R2
+w1482939324
+8/acct/talleyad/Documents/CSCE-611/current2/execWrite.v
+F/acct/talleyad/Documents/CSCE-611/current2/execWrite.v
+L0 1
+R3
+!s108 1482940358.000000
+!s107 /acct/talleyad/Documents/CSCE-611/current2/execWrite.v|
+!s90 -reportprogress|300|-work|work|/acct/talleyad/Documents/CSCE-611/current2/execWrite.v|
+!i113 0
+R4
+nexec@write
+vfetch
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 4:SHTd1DKFKg6U688:i3A2
+IUIJ_Q6n1Po5;9nhmJ_JIb2
+R2
+w1482939967
+8/acct/talleyad/Documents/CSCE-611/current2/fetch_lab5.v
+F/acct/talleyad/Documents/CSCE-611/current2/fetch_lab5.v
+L0 1
+R3
+!s108 1482942575.000000
+!s107 /acct/talleyad/Documents/CSCE-611/current2/fetch_lab5.v|
+!s90 -reportprogress|300|-work|work|/acct/talleyad/Documents/CSCE-611/current2/fetch_lab5.v|
+!i113 0
+R4
+vmy_video_test
+!s110 1480311837
+!i10b 1
+!s100 BNX^lLlCUKL[L3=fP>TRl0
+Ik=zDhFFWYeb;@EQO>a=l90
+R1
+R2
+w1480310791
+8/acct/talleyad/Documents/CSCE-611/current2/my_video_test.v
+F/acct/talleyad/Documents/CSCE-611/current2/my_video_test.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1480311837.000000
+!s107 /acct/talleyad/Documents/CSCE-611/current2/my_video_test.v|
+!s90 -reportprogress|30|-work|work|/acct/talleyad/Documents/CSCE-611/current2/my_video_test.v|
+!i113 0
+R4
+vregfile32x32
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 >`cln5TV;Z[YA66^kW>mM0
+I6<3YTF>lDWY=Q[O?8KPVl0
+R2
+w1482324965
+8/acct/talleyad/Documents/CSCE-611/current2/registerFile.v
+F/acct/talleyad/Documents/CSCE-611/current2/registerFile.v
+L0 1
+R3
+!s108 1482324970.000000
+!s107 /acct/talleyad/Documents/CSCE-611/current2/registerFile.v|
+!s90 -reportprogress|300|-work|work|/acct/talleyad/Documents/CSCE-611/current2/registerFile.v|
+!i113 0
+R4
+vtest_de2
+R5
+!i10b 1
+!s100 iB@e2WE:ZfnSAP:28O5KB2
+IfOE]M9R`NI@3@Zg_Sn?Q>0
+R1
+R2
+w1480262607
+8/acct/talleyad/Documents/CSCE-611/current2/test_de2.v
+F/acct/talleyad/Documents/CSCE-611/current2/test_de2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 /acct/talleyad/Documents/CSCE-611/current2/test_de2.v|
+!s90 -reportprogress|30|-work|work|/acct/talleyad/Documents/CSCE-611/current2/test_de2.v|
+!i113 0
+R4
+vtestBench
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 4Y@;g]6>9G7aJfJdNgzMR3
+IJf:lMC:I0C_6dH9O20GYD3
+R2
+w1482942342
+8/acct/talleyad/Documents/CSCE-611/current2/testBench.v
+F/acct/talleyad/Documents/CSCE-611/current2/testBench.v
+L0 1
+R3
+!s108 1482942351.000000
+!s107 /acct/talleyad/Documents/CSCE-611/current2/testBench.v|
+!s90 -reportprogress|300|-work|work|/acct/talleyad/Documents/CSCE-611/current2/testBench.v|
+!i113 0
+R4
+ntest@bench
+vVGA_PLL
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 3>JmaHSP8N<JYM[W7k3=D2
+I`WJk;iBekbAUG@0QgW4^F0
+R2
+R7
+8/acct/talleyad/Documents/CSCE-611/current2/VGA_PLL.v
+F/acct/talleyad/Documents/CSCE-611/current2/VGA_PLL.v
+L0 39
+R3
+R6
+!s107 /acct/talleyad/Documents/CSCE-611/current2/VGA_PLL.v|
+!s90 -reportprogress|30|-work|work|/acct/talleyad/Documents/CSCE-611/current2/VGA_PLL.v|
+!i113 0
+R4
+n@v@g@a_@p@l@l
+vVGA_Sync
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 fYoHZM6SmBNczcEEMRcNH0
+ICUC4W1490Pb_SaPb82a:e2
+R2
+R7
+8/acct/talleyad/Documents/CSCE-611/current2/VGA_Sync.v
+F/acct/talleyad/Documents/CSCE-611/current2/VGA_Sync.v
+L0 4
+R3
+R6
+!s107 /acct/talleyad/Documents/CSCE-611/current2/VGA_Sync.v|
+!s90 -reportprogress|30|-work|work|/acct/talleyad/Documents/CSCE-611/current2/VGA_Sync.v|
+!i113 0
+R4
+n@v@g@a_@sync
+vvideo_test
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 [kJ@_1<Lh26Wgi:RCLU5d1
+Ig75o@mB;l4]]VA>97;Bg92
+R2
+w1480289702
+8/acct/talleyad/Documents/CSCE-611/current2/video_test.v
+F/acct/talleyad/Documents/CSCE-611/current2/video_test.v
+L0 1
+R3
+!s108 1480289703.000000
+!s107 /acct/talleyad/Documents/CSCE-611/current2/video_test.v|
+!s90 -reportprogress|300|-work|work|/acct/talleyad/Documents/CSCE-611/current2/video_test.v|
+!i113 0
+R4
+vvmem8192x24
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 KbCA]jhU?]XTN@AYcUYz_0
+IjF0]9CDG7H<IDBS;mDfk;0
+R2
+w1480102168
+8/acct/talleyad/Documents/CSCE-611/current2/vmem8192x24.v
+F/acct/talleyad/Documents/CSCE-611/current2/vmem8192x24.v
+L0 1
+R3
+R6
+!s107 /acct/talleyad/Documents/CSCE-611/current2/vmem8192x24.v|
+!s90 -reportprogress|30|-work|work|/acct/talleyad/Documents/CSCE-611/current2/vmem8192x24.v|
+!i113 0
+R4

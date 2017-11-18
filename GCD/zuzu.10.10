@@ -1,0 +1,92 @@
+Main: Beginning execution
+Main: datafile  'zin1.txt'
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Sun Jan 17 19:33:02 2016
+TIME beginning             0.00 u         0.00 s   Res:        6568
+TIME beginning             0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+
+Utils: open the input file 'zin1.txt'
+Utils: open succeeded for 'zin1.txt'
+start the computation
+create 10 records
+done with creation of 10 records
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Sun Jan 17 19:33:02 2016
+TIME done creation         0.00 u         0.00 s   Res:        6568
+TIME done creation         0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Sun Jan 17 19:33:02 2016
+TIME before gcdtest        0.00 u         0.00 s   Res:        6568
+TIME before gcdtest        0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Sun Jan 17 19:33:02 2016
+TIME bef binary false       0.00 u         0.00 s   Res:        6568
+TIME bef binary false       0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+
+          0           0           1     -1      1     -1
+          1           8           5     -1      1     -1
+          2           5           2     -1      1     -1
+          3           0           7     -1      7     -1
+          4           7          10     -1      1     -1
+          5           4           5     -1      1     -1
+          6           9           0     -1      9     -1
+          7           0           5     -1      5     -1
+          8           7           0     -1      7     -1
+          9           4           0     -1      4     -1
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Sun Jan 17 19:33:02 2016
+TIME aft binary false       0.00 u         0.00 s   Res:        6568
+TIME aft binary false       0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+
+done with the computation
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Sun Jan 17 19:33:02 2016
+TIME after gcdtest         0.00 u         0.00 s   Res:        6568
+TIME after gcdtest         0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+
+Frequencies of bit lengths
+   0       6
+   2       2
+   3       6
+   4       6
+
+Frequencies of shift fractions
+  25       2
+  33       2
+
+Main: Ending execution
+
+TIME***********************************************************************
+TIME CPU percent    0.00   0.00                    Sun Jan 17 19:33:02 2016
+TIME ending                0.00 u         0.00 s   Res:        6568
+TIME ending                0.00 u_t       0.00 s_t
+TIME***********************************************************************
+
+
+
