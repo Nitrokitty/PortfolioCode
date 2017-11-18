@@ -2,7 +2,6 @@ import random
 import math
 
 class FibonacciHeap:
-    
     trees = None
     min_tree = None
     root = None;
@@ -264,10 +263,7 @@ class Tree:
 
             
         
-
-
-
-
+#~~~~~~~~~~~~TestCode~~~~~~~~~~~~
 f_heap=FibonacciHeap()
 f_heap_values = list()
 while len(f_heap_values) < 10:
